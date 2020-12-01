@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ruta 2</name>
+	<gx:CascadingStyle kml:id="__managed_style_2B0D2653E916BFBB3202">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E9E2CA07F16BFBB3202">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_04934E11C316BFBB3202">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E9E2CA07F16BFBB3202</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2B0D2653E916BFBB3202</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0665F51E3716BFBC0962">
+		<name>Cangas de Onis</name>
+		<LookAt>
+			<longitude>-5.124139035431384</longitude>
+			<latitude>43.35408968923947</latitude>
+			<altitude>91.59755276404904</altitude>
+			<heading>-34.53484543515182</heading>
+			<tilt>38.8324627307361</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6792.878953430336</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04934E11C316BFBB3202</styleUrl>
+		<Point>
+			<coordinates>-5.131013299999999,43.35062509999999,66.98253689417429</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="018F792F7816BFBC7CCE">
+		<name>Arriondas</name>
+		<LookAt>
+			<longitude>-5.180099545823467</longitude>
+			<latitude>43.38456661433934</latitude>
+			<altitude>39.17715902942679</altitude>
+			<heading>-34.52150719619298</heading>
+			<tilt>38.80883022232284</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2598.519653482363</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04934E11C316BFBB3202</styleUrl>
+		<Point>
+			<coordinates>-5.187550198857273,43.38584659737119,35.68459105878576</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09841A978016BFBCE498">
+		<name>Ribadesella</name>
+		<LookAt>
+			<longitude>-5.062119194387179</longitude>
+			<latitude>43.44319319282094</latitude>
+			<altitude>17.34759141489285</altitude>
+			<heading>-4.345641705564168</heading>
+			<tilt>34.43929806124854</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9111.372414071811</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04934E11C316BFBB3202</styleUrl>
+		<Point>
+			<coordinates>-5.058948439801378,43.46128542621389,21.22514293347851</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00866FC86516BFC1FD74">
+		<name>Potes</name>
+		<LookAt>
+			<longitude>-4.625465461257181</longitude>
+			<latitude>43.15417757878093</latitude>
+			<altitude>96.59769619955384</altitude>
+			<heading>-18.59897719724937</heading>
+			<tilt>28.27621927424582</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>144173.3724115603</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04934E11C316BFBB3202</styleUrl>
+		<Point>
+			<coordinates>-4.625465461257181,43.15417757878093,96.59769619955384</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09FEB5F62E16BFC099FA">
+		<name>PotesARibadesella</name>
+		<LookAt>
+			<longitude>-5.084273732682174</longitude>
+			<latitude>43.4302049857034</latitude>
+			<altitude>205.9432467419116</altitude>
+			<heading>-94.04555381516158</heading>
+			<tilt>21.95105692230545</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>14450.64801278757</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04934E11C316BFBB3202</styleUrl>
+		<LineString>
+			<coordinates>
+				-4.625465461257181,43.15417757878093,96.59769619955384 -4.558574749813516,43.2914541832314,91.38096987002864 -4.690267177195697,43.32510166520949,88.77260670526604 -4.733871603438575,43.33483075817391,88.1205159140754 -4.814265989976158,43.30425581293061,87.46842512288475 -5.09624492896676,43.35130271272075,86.16424354050345 -5.110868752668887,43.3500185807066,100.9638082604413 -5.131275236777021,43.35047417955161,65.29983196318477 -5.134089472606744,43.35865633175479,72.27506984453052 -5.143486483041091,43.36000034651276,59.83457773092648 -5.152964712889052,43.36560132967769,54.80739099248217 -5.148062929510795,43.37068685543018,49.12085909873463 -5.148472368974188,43.37373254866314,46.1307281103207 -5.159991832578152,43.37445081238714,54.95488432252283 -5.169271584889278,43.38075103551186,52.98331988844062 -5.177678494187816,43.38729403579767,37.12274287552086 -5.18697051074631,43.38609624999513,33.28208546176885 -5.180754585198947,43.39202424798127,26.42476894897574 -5.141445351504851,43.39870049083567,22.00132356935342 -5.137840676337374,43.39820058678379,25.40805267411422 -5.136945242324527,43.40385214542059,18.48000339339643 -5.137250366308836,43.40700833456053,41.45344873292289 -5.13467055755858,43.40768442327153,17.92768795984317 -5.129471591142925,43.40605604457337,56.08454078380213 -5.122686105088445,43.40449632818964,33.58171121936793 -5.1063947368166,43.40997487653325,20.94749789253024 -5.101283513099841,43.40957467113417,11.50923981010325 -5.100537345664792,43.40902322984612,16.76999930971047 -5.096638572338589,43.40965006918591,19.46897395985171 -5.092942515468478,43.41436137395441,32.3421002154087 -5.087885166322722,43.42116984050516,20.63177575335118 -5.071266922694755,43.42912512535044,7.34144988568014 -5.061283795075562,43.42557983275745,16.43551974336184 -5.061337599863117,43.4321132455009,9.139263518308914 -5.051068712178034,43.44737718218964,6.81531195488035 -5.063043691849813,43.45745052921602,3.074439593793281 -5.059823802932989,43.46138988770988,10.53100148928374 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	
+	
+	
+</Document>
+</kml>

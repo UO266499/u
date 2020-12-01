@@ -1,0 +1,40 @@
+head{
+    background-color:white;
+    color:black;
+}
+
+body{
+    background-color:white;
+    text-align: center;
+    padding: 2%;
+    color:black;
+}
+
+h1{
+    text-align:center;
+    color:black;
+}
+
+input{
+    background-color: white;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 0%;
+    font-size: 20px;
+    text-align: right;
+}
+
+main{
+    background-color: lightgrey;
+    margin-left: 39%;
+    margin-right: 39%;
+    text-align: center;
+}
+
+button {
+    margin-top: 1%;
+    background-color: white;
+    font-size: 22px;
+    min-width: 70px;
+    min-height: 70px;
+  }

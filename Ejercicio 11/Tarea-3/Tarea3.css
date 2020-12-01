@@ -1,0 +1,25 @@
+head{
+    background-color:white;
+    color:black;
+}
+
+body{
+    background-color:rgb(231, 236, 240);
+    text-align: center;
+    color:black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align:center;
+    color:black;
+}
+
+button{
+    background-color: linen;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 1%;
+}

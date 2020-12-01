@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>XML-meteo</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="Ejercicio9.css">
+        <script src="Ejercicio9.js"></script>
+    </head>
+    <body>
+        <h1>Tiempo en Oviedo (no encontraba ninguna mas cercana)</h1>
+        <button onclick="meteo.verXML('Oviedo')" > Obtener XML</button>
+
+        <h2>Tiempo en Ribadesella</h2>
+        <button onclick="meteo.verXML('Ribadesella')" > Obtener XML</button>
+
+        <h3>Tiempo en Cangas de Onís</h3>
+        <button onclick="meteo.verXML('Cangas de Onís')" > Obtener XML</button>
+
+        <h4>Tiempo en Covadonga (Lo mas cercano a Arriondas)</h4>
+        <button onclick="meteo.verXML('Covadonga')" > Obtener XML</button>
+
+        <h5>Tiempo en Unquera</h5>
+        <button id="ultimo" onclick="meteo.verXML('Unquera')" > Obtener XML</button>
+
+        <footer>
+        </footer>
+    </body>
+</html>

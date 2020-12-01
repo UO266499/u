@@ -1,0 +1,47 @@
+head{
+    background-color:white;
+    color:black;
+}
+
+body{
+    background-color:white;
+    text-align: center;
+    padding: 2%;
+    color:black;
+}
+
+h1{
+    text-align:center;
+    color:black;
+}
+
+.pantalla{
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+
+input{
+    background-color: white;
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+}
+
+main{
+    background-color: lightgrey;
+    margin-left: 39%;
+    margin-right: 39%;
+    text-align: center;
+}
+
+button {
+    margin-top: 1%;
+    background-color: white;
+    font-size: 22px;
+    min-width: 20%;
+    min-height: 20%;
+  }

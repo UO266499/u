@@ -1,0 +1,70 @@
+head{
+    background-color:white;
+    color:black;
+}
+
+body{
+    background-color:rgb(231, 236, 240);
+    text-align: center;
+    color:black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align:center;
+    color:black;
+}
+
+h2{
+    text-align:center;
+    color:rgb(148, 90, 90);
+}
+
+h3{
+    text-align:center;
+    color:rgb(180, 62, 62);
+}
+
+h4{
+    text-align:center;
+    color:rgb(255, 0, 0);
+}
+
+table{
+    text-align:center;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-color: black;
+}
+
+td{
+    padding: 1em ;
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    padding: 1em ;
+    border: 1px solid black;
+    color: red;
+}
+
+
+input{
+    background-color: white;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+}
+
+button{
+    background-color: linen;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 1%;
+}

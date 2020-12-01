@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="Ejercicio7.css">
+    <script src="Ejercicio7.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <h1>Soy el primer header</h1>
+    <button onclick="ocultar.ocultarH1()">Ocultar el primer header</button>
+    <button onclick="mostrar.mostrarH1()">Mostrar el primer header</button>
+
+    <h2>Soy el segundo header</h2>
+    <button onclick="mostrar.modificarHeader1()">Modificar el segundo header</button>
+
+    <h3>Soy el tercer header</h3>
+
+    <button onclick="mostrar.crearHeader()">Añadir header</button>
+
+    <p>Soy un párrafo</p>
+    <p>Y yo soy otro párrafo</p>
+
+    <button id="borrarParrafos" onclick="ocultar.borrarParrafos()">Eliminar párrafos y este botón</button>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Número</th>
+                <th>Nombre</th>
+                <th>Marca</th>
+                <th>Precio</th>
+                <th>Material</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jersey</td>
+                <td>Primark</td>
+                <td>15</td>
+                <td>Lana</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Original NMD R1</td>
+                <td>Adidas</td>
+                <td>130</td>
+                <td>Poliester</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Janosky's</td>
+                <td>Nike</td>
+                <td>90</td>
+                <td>Poliester</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>B550-F Gaming</td>
+                <td>Asus(ROG)</td>
+                <td>150</td>
+                <td>Cobre</td>
+            </tr>  
+            <tr>
+                <td>5</td>
+                <td>K68 RGB</td>
+                <td>Corsair</td>
+                <td>100</td>
+                <td>Aluminio</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>K68 NO RGB</td>
+                <td>Corsair</td>
+                <td>80</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <button  id="contarFilasColumnas" onclick="mostrar.sumaColumnasYFilas()">Sumar Filas y Columnas</button>
+    <input id="sumaColumnasYFilas" type="text" disabled>
+    <br>
+
+    <button  id="eliminarFooter" onclick="ocultar.eliminarFooter()">Eliminar footer</button>
+    <br>
+    <button id="antesFooter" onclick="mostrar.mostrarEtiquetas()">Mostrar información de los elementos</button>
+
+    <footer id="footer">
+        <a href="http://validator.w3.org/check/referer" hreflang="en-us"> 
+            <img  src="valid-html5-button.png" alt="¡HTML5 válido!"/></a>
+    </footer>
+</body>
+</html>

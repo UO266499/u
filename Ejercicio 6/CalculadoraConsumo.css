@@ -1,0 +1,30 @@
+head{
+    background-color:white;
+    color:black;
+}
+
+body{
+    background-color:lightskyblue;
+    text-align: center;
+    color:black;
+    font-size: 18px;
+}
+
+h1{
+    text-align:center;
+    color:black;
+}
+
+input{
+    background-color: white;
+    font-size: 18px;
+    width: 10%;
+    text-align: center;
+}
+
+button{
+    background-color: linen;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+}

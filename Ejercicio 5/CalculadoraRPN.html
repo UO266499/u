@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" href="Calculadora.css">
+    <script src="Calculadora.js"></script>
+</head>
+<body>
+    <h1> Calculadora RPN</h1>
+    <main>
+        <div class = "pantalla">
+            <input type="text" id="5" disabled><br>
+            <input type="text" id="4" disabled><br>
+            <input type="text" id="3" disabled><br>
+            <input type="text" id="2" disabled><br>
+            <input type="text" id="1" disabled><br>
+        </div>
+        
+        <button onclick="calculadora.enter()">Enter</button><br>
+        <button onclick="calculadora.getSeven()">7</button>
+        <button onclick="calculadora.getEight()">8</button>
+        <button onclick="calculadora.getNine()">9</button>
+        <button onclick="calculadora.multiply()">*</button><br>
+        <button onclick="calculadora.getFour()">4</button>
+        <button onclick="calculadora.getFive()">5</button>
+        <button onclick="calculadora.getSix()">6</button>
+        <button onclick="calculadora.minus()">-</button><br>
+        <button onclick="calculadora.getOne()">1</button>
+        <button onclick="calculadora.getTwo()">2</button>
+        <button onclick="calculadora.getThree()">3</button>
+        <button onclick="calculadora.plus()">+</button><br>
+        <button onclick="calculadora.getZero()">0</button>
+        <button onclick="calculadora.getDot()">.</button>
+        <button onclick="calculadora.clear()">C</button>
+        <button onclick="calculadora.divide()">/</button> 
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="Ejercicio14.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="Ejercicio14.js"></script>
+</head>
+<body>
+    <h1>Distancia al comienzo de la ruta: </h1>
+    <p>Escoger un archivo .geojosn que contenga la ruta a realizar</p>
+    <input type="file" id="buscar" accept=".geojson" onchange="mostrar.leerArchivo(this.files) ">
+    <div id="map"></div>
+    <p>Tipo del terreno inicial: </p>
+    <p>Verde: Llanura</p>
+    <p>Gris: Ciudad</p>
+    <p>Azul: Maritimo</p>
+    <p>Amarillo: Montañoso</p>
+
+    <canvas id="terreno"></canvas>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&amp;callback=mapaDinamicoGoogle.location"></script>
+
+    
+</body>
+</html>

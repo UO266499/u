@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Cientifica</title>
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+    <script src="CalculadoraCientifica.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora Cientifica </h1>
+        <main>
+            <input type="text" id="calculo" disabled><br>
+            <input type="text" id="pantalla" disabled><br>
+            <button onclick="calculadora.deg()">DEG</button>
+            <button onclick="calculadora.rad()">RAD</button> <br>
+
+            <button onclick="calculadora.mc()">MC</button>
+            <button onclick="calculadora.mr()">MR</button>
+            <button onclick="calculadora.mMinus()">M-</button>
+            <button onclick="calculadora.mPlus()">M+</button>
+            <button onclick="calculadora.ms()">MS</button> <br>
+            
+            <button onclick="calculadora.xSquared()">x^2</button> 
+            <button onclick="calculadora.xElevY()">x^y</button> 
+            <button onclick="calculadora.sin()">sin</button> 
+            <button onclick="calculadora.cos()">cos</button> 
+            <button onclick="calculadora.tan()">tan</button> <br>
+
+            <button onclick="calculadora.squareRoot()">root</button> 
+            <button onclick="calculadora.tenToX()">10^x</button> 
+            <button onclick="calculadora.log()">log</button> 
+            <button onclick="calculadora.exp()">e</button> 
+            <button onclick="calculadora.mod()">Mod</button> <br>
+
+            <button onclick="calculadora.divx()">1/x</button> 
+            <button onclick="calculadora.ce()">CE</button> 
+            <button onclick="calculadora.clear()">C</button> 
+            <button onclick="calculadora.del()">del</button> 
+            <button onclick="calculadora.divide()">/</button> <br>
+
+
+            <button onclick="calculadora.pi()">pi</button> 
+            <button onclick="calculadora.getSeven()">7</button>
+            <button onclick="calculadora.getEight()">8</button>
+            <button onclick="calculadora.getNine()">9</button>
+            <button onclick="calculadora.multiply()">*</button><br>
+
+            <button onclick="calculadora.factorial()">n!</button> 
+            <button onclick="calculadora.getFour()">4</button>
+            <button onclick="calculadora.getFive()">5</button>
+            <button onclick="calculadora.getSix()">6</button>
+            <button onclick="calculadora.minus()">-</button><br>
+
+            
+            <button onclick="calculadora.changeSign()">+-</button> 
+            <button onclick="calculadora.getOne()">1</button>
+            <button onclick="calculadora.getTwo()">2</button>
+            <button onclick="calculadora.getThree()">3</button>
+            <button onclick="calculadora.plus()">+</button><br>
+
+            <button onclick="calculadora.getLeftParenthesis()">(</button>
+            <button onclick="calculadora.getRightParenthesis()">)</button>
+            <button onclick="calculadora.getZero()">0</button>
+            <button onclick="calculadora.getDot()">.</button>
+            <button onclick="calculadora.equals()">=</button>
+        </main>
+</body>
+</html>
