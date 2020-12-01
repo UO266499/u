@@ -11,51 +11,66 @@
         <h1>Calculadora de Consumos de agua por vivienda</h1>
         
         <p>Introducir el número de personas en la vivienda: </p>
+		<label for="numeroPersonas">numeroPersonas</label>
         <input type="text" id="numeroPersonas" onkeypress="return isNumber(event)">
         
         <p>Frecuencia con la que se ducha a la semana:</p>
+		<label for="numeroDuchas">numeroDuchas</label>
         <input type="text" id="numeroDuchas" onkeypress="return isNumber(event)">
         
         <p>¿Cuanto tardas de media en ducharte? (en minutos)</p>
+		<label for="tiempoDuchas">tiempoDuchas</label>
         <input type="text" id="tiempoDuchas" onkeypress="return isNumber(event)">
 
         <p>Frecuencia de baños a la semana:</p>
+		<label for="numeroBaños">numeroBaños</label>
         <input type="text" id="numeroBaños" onkeypress="return isNumber(event)">
 
         <p>OPCIONAL: ¿Cuanto tardas en llenar la bañera aproximadamente? (en minutos) </p>
+		<label for="tiempoBaños">tiempoBaños</label>
         <input type="text" id="tiempoBaños" onkeypress="return isNumber(event)">
 
         <p>Frecuencia con la que te lavas los dientes al dia:</p>
+		<label for="numeroLavadoDientes">numeroLavadoDientes</label>
         <input type="text" id="numeroLavadoDientes" onkeypress="return isNumber(event)">
 
         <p>¿Cuanto veces descargas de media el inodoro al día?</p>
+		<label for="vecesInodoro">vecesInodoro</label>
         <input type="text" id="vecesInodoro" onkeypress="return isNumber(event)">
 
         <p>¿Cuanto veces utilizas el grifo para lavarte las manos/cara, afeitarte o peinarte al día?</p>
+		<label for="vecesOtros">vecesOtros</label>
         <input type="text" id="vecesOtros" onkeypress="return isNumber(event)">
 
         <p>¿Cuanta agua bebes del grifo al dia? (en litros)</p>
+		<label for="vecesBeber">vecesBeber</label>
         <input type="text" id="vecesBeber" onkeypress="return isNumber(event)">
 
         <p>¿Cuanto tiempo pasas usando el grifo para cocinar/lavar la vajilla al día? (en minutos, sin incluir el uso de lavavajillas)</p>
-        <input type="text" id="vecesGrifo" onkeypress="return isNumber(event)">
+        <label for="vecesGrifo">vecesGrifo</label>
+		<input type="text" id="vecesGrifo" onkeypress="return isNumber(event)">
 
         <p>Frecuencia con la que usas el lavavajillas a la semana:</p>
+		<label for="numeroLavavajillas">numeroLavavajillas</label>
         <input type="text" id="numeroLavavajillas" onkeypress="return isNumber(event)">
 
         <p>¿Cuantos cubos utilizas para limpiar la casa a la semana?</p>
+		<label for="numeroCubos">numeroCubos</label>
         <input type="text" id="numeroCubos" onkeypress="return isNumber(event)">
         <br><br>
         
         <button type="button" onclick="return calcularResultados()">Calcular consumos</button>
         
         <p>El consumo de agua es una estimación en Litros de la cantidad que se usa al día:</p>
+		<label for="resultadoDia">resultadoDia</label>
         <input type="text" id="resultadoDia" disabled>
 
         <p>El consumo de agua es una estimación en Litros de la cantidad que se usa al mes:</p>
+		<label for="resultadoMes">resultadoMes</label>
         <input type="text" id="resultadoMes" disabled>
         
         <p>El coste mensual estimado es:</p>
+		<label for="costeMensual">costeMensual</label>
         <input type="text" id="costeMensual" disabled>
     </body>
 </html>
